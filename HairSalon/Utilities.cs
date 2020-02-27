@@ -17,8 +17,9 @@ namespace HairSalon
     public class Utilities
     {
         //Folders
-        private static string HairSalonFolder = ConfigurationManager.AppSettings["HairSalonFolder"].ToString();
-        private static string InstalledDefaultPic = ConfigurationManager.AppSettings["InstalledDefaultPic"].ToString();
+        private static string AppBaseDir = new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent.FullName;
+        private static string HairSalonFolder = AppBaseDir + ConfigurationManager.AppSettings["HairSalonFolder"].ToString();
+        private static string InstalledDefaultPic = AppBaseDir + ConfigurationManager.AppSettings["InstalledDefaultPic"].ToString();
         public static string Employees = HairSalonFolder + "\\Employees";
         public static string Customers = HairSalonFolder + "\\Customers";
         public static string ExcelCustomers = HairSalonFolder + "\\Customers\\customers.xls";
