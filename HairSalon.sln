@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29814.53
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HairSalon", "HairSalon\HairSalon.csproj", "{B7AA5317-6CF2-4638-9FC7-5F57A0C95991}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HairSalonInstaller", "HairSalonInstaller\HairSalonInstaller.vdproj", "{D6F1B305-EADE-429C-990F-2FEE75F102DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,11 @@ Global
 		{B7AA5317-6CF2-4638-9FC7-5F57A0C95991}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7AA5317-6CF2-4638-9FC7-5F57A0C95991}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7AA5317-6CF2-4638-9FC7-5F57A0C95991}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6F1B305-EADE-429C-990F-2FEE75F102DD}.Debug|Any CPU.ActiveCfg = Debug
-		{D6F1B305-EADE-429C-990F-2FEE75F102DD}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {854C8D4B-8B77-463C-9804-E6DD18DD09F3}
 	EndGlobalSection
 EndGlobal
