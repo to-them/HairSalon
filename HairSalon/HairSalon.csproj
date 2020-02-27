@@ -109,6 +109,20 @@
       <DependentUpon>Main.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\HairSalon.CompanyInfo.resources" />
+    <EmbeddedResource Include="obj\Debug\HairSalon.CustomerEditor.resources" />
+    <EmbeddedResource Include="obj\Debug\HairSalon.Customers.resources" />
+    <EmbeddedResource Include="obj\Debug\HairSalon.Main.resources" />
+    <EmbeddedResource Include="obj\Debug\HairSalon.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\HairSalon.Reports.resources" />
+    <EmbeddedResource Include="obj\Debug\HairSalon.StateLookup.resources" />
+    <EmbeddedResource Include="obj\Release\HairSalon.CompanyInfo.resources" />
+    <EmbeddedResource Include="obj\Release\HairSalon.CustomerEditor.resources" />
+    <EmbeddedResource Include="obj\Release\HairSalon.Customers.resources" />
+    <EmbeddedResource Include="obj\Release\HairSalon.Main.resources" />
+    <EmbeddedResource Include="obj\Release\HairSalon.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Release\HairSalon.Reports.resources" />
+    <EmbeddedResource Include="obj\Release\HairSalon.StateLookup.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -128,6 +142,24 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="App.config" />
+    <None Include="bin\Debug\HairSalon.exe.config" />
+    <None Include="bin\Debug\HairSalon.vshost.exe.config" />
+    <None Include="bin\Debug\HairSalon.vshost.exe.manifest" />
+    <None Include="bin\Release\HairSalon.exe.config" />
+    <None Include="bin\Release\HairSalon.vshost.exe.config" />
+    <None Include="bin\Release\HairSalon.vshost.exe.manifest" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\HairSalon.csproj.CopyComplete" />
+    <None Include="obj\Debug\HairSalon.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\HairSalon.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\HairSalon.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\HairSalon.csproj.CopyComplete" />
+    <None Include="obj\Release\HairSalon.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\HairSalon.csproj.GenerateResource.cache" />
+    <None Include="obj\Release\HairSalon.csprojAssemblyReference.cache" />
+    <None Include="obj\Release\ResolveAssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -154,12 +186,40 @@
     <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\AllPurpose_Lib.dll" />
+    <Content Include="bin\Debug\AllPurpose_Lib.pdb" />
+    <Content Include="bin\Debug\Ayitech_Lib.dll" />
+    <Content Include="bin\Debug\Ayitech_Lib.pdb" />
+    <Content Include="bin\Debug\Evaluant.Antlr.dll" />
+    <Content Include="bin\Debug\Evaluant.Calculator.dll" />
+    <Content Include="bin\Debug\HairSalon.exe" />
+    <Content Include="bin\Debug\HairSalon.pdb" />
+    <Content Include="bin\Debug\HairSalon.vshost.exe" />
+    <Content Include="bin\Debug\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="bin\Debug\Microsoft.ApplicationBlocks.Data.xml" />
+    <Content Include="bin\Debug\RKLib.ExportData.dll" />
+    <Content Include="bin\Release\AllPurpose_Lib.dll" />
+    <Content Include="bin\Release\Ayitech_Lib.dll" />
+    <Content Include="bin\Release\HairSalon.exe" />
+    <Content Include="bin\Release\HairSalon.pdb" />
+    <Content Include="bin\Release\HairSalon.vshost.exe" />
+    <Content Include="bin\Release\RKLib.ExportData.dll" />
+    <Content Include="obj\Debug\HairSalon.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\HairSalon.exe" />
+    <Content Include="obj\Debug\HairSalon.pdb" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Release\HairSalon.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\HairSalon.exe" />
+    <Content Include="obj\Release\HairSalon.pdb" />
+    <Content Include="obj\Release\TempPE\Properties.Resources.Designer.cs.dll" />
     <Content Include="Resources\default2.jpg" />
     <Content Include="Resources\default3.jpg" />
     <Content Include="Resources\default.jpg" />
     <Content Include="Resources\WeblogPost.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="obj\Debug\Refactor\" />
+    <Folder Include="obj\Release\Refactor\" />
     <Folder Include="Resources\Data\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
